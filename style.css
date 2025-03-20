@@ -1,0 +1,15 @@
+.navbar ul{
+    padding: 10px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    text-decoration:none;
+    list-style-type: none;
+    display: inline-block;
+    color: blueviolet;
+    padding: 5px;
+}
