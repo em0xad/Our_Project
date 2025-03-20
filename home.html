@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find your dream job today as a Back-End Developer with Laravel">
+    <meta name="author" content="Emad Aladl">
+    <meta name="keywords" content="back-end, remote jobs, Laravel developer, job opportunity">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" href="favicon/global.ico">
+    <title>Job Opportunity - Back-End Developer</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="success.html">Success Request</a></li>
+                <li><a href="information.html">Information</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h1>Job Opportunity: Back-End Developer (Laravel)</h1>
+            <p>We are looking for a skilled Back-End Developer to join our team. This role is an excellent opportunity for individuals passionate about building efficient, scalable, and secure web applications.</p>
+
+            <h2>Job Responsibilities:</h2>
+            <ul>
+                <li>Develop, maintain, and optimize back-end services using Laravel.</li>
+                <li>Design and implement RESTful APIs and database structures.</li>
+                <li>Ensure application security, scalability, and performance.</li>
+                <li>Troubleshoot, debug, and optimize application logic.</li>
+                <li>Collaborate with front-end developers and other team members.</li>
+                <li>Write clean, maintainable, and well-documented code.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Required Qualifications & Experience:</h2>
+            <ol>
+                <li>Proven experience as a Back-End Developer with Laravel.</li>
+                <li>Strong understanding of PHP, MySQL, and database design principles.</li>
+                <li>Experience with API development and integration (RESTful APIs).</li>
+                <li>Proficiency in Git for version control.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Preferred Skills:</h2>
+            <ul>
+                <li>Experience with cloud services (AWS, DigitalOcean).</li>
+                <li>Knowledge of caching techniques (Redis, Memcached).</li>
+                <li>Understanding of front-end technologies (Vue.js, React, or Angular) is a plus.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Image Description</h3>
+            <img src="images/1.jpg" alt="Back-End Developer working on a project" width="75%" loading="lazy">
+            
+            <h3>Video Description</h3>
+            <video src="videos/2.mp4" controls autoplay loop width="75%"  poster="images/4.jpg"></video>
+        </section>
+
+        <section>
+            <center><h2>Registration Form</h2></center>
+            <form action="success.html" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first_name" required pattern="[A-Za-z]+" 
+                    title="Only letters are allowed (A-Z, a-z)"><br><br>
+
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last_name" pattern="[A-Za-z]+" 
+                    title="Only letters are allowed (A-Z, a-z)"><br><br>
+
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="email@...." maxlength="50"><br><br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" minlength="8" maxlength="40"
+                           placeholder="password" 
+                           pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,}" 
+                           title="Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character, with a minimum length of 8 characters.">
+              <br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="number" id="phone" name="phone" placeholder="+963........."><br><br>
+
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Skills Required</legend>
+                    <input type="checkbox" id="php" name="skills[]" value="PHP"><label for="php">PHP</label>
+                    <input type="checkbox" id="mysql" name="skills[]" value="MySQL"><label for="mysql">MySQL</label>
+                    <input type="checkbox" id="laravel" name="skills[]" value="Laravel"><label for="laravel">Laravel</label>
+                    <input type="checkbox" id="css" name="skills[]" value="CSS"><label for="css">CSS</label>
+                    <input type="checkbox" id="JS" name="skills[]" value="JS"><label for="JS">Javascript</label>
+                    <input type="checkbox" id="html" name="skills[]" value="HTML"><label for="html">HTML</label><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Documents</legend>
+                    <label for="cv_file">Upload CV:</label>
+                    <input type="file" id="cv_file" name="cv" accept=".pdf, .doc, .docx"><br><br>
+
+                    <label for="degrees">Upload Degrees:</label>
+                    <input type="file" id="degrees" name="degrees" multiple accept=".pdf, .jpg, .png"><br><br>
+                </fieldset>
+
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <footer>
+            <a href="#top">Go up to read qualifications</a>
+        </footer>
+    </main>
+</body>
+</html>
